@@ -17208,7 +17208,11 @@ lodash.exports;
 
 var lodashExports = lodash.exports;
 
+var Button = "button";
+
 console.log("merge: ", lodashExports.merge);
+console.log("Button: ", Button);
+
 function main () {
     Promise.resolve().then(function () { return require('./foo-CxwvyDcu.js'); }).then((m) => {
         console.log(m.default);
